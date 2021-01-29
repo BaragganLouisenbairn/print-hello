@@ -11,7 +11,7 @@ endif()
 
 include_directories("./include/")
 
-set(THIS_PROJECT_EXECUTABLE_LIST src/phl.cpp)
+set(THIS_PROJECT_EXECUTABLE_LIST src/phl.cpp src/better_hello/bhl.cpp)
 
 add_library(print_hello_lib SHARED ${THIS_PROJECT_EXECUTABLE_LIST})
 
